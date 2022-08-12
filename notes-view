@@ -1,0 +1,3 @@
+#!/bin/sh
+
+watch -ct ssh $(cat ~/.ssh-notes/destination) "bat --theme=ansi -f $@ .ssh-notes/notes.md"

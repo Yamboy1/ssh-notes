@@ -29,7 +29,7 @@ Make sure that the `$EDITOR` environment variable on the server is set to your p
 
 ### notes-view
 
-This command will essentially watch the `~/.ssh-notes/notes.md` file on the remote server, updating every 2 seconds.
+This command will essentially watch the `~/.ssh-notes/notes.md` file on the remote server, updating every 2 seconds. Any command line arguments will be passed through to `bat`, useful if the rendering looks weird on your terminal and you want to override the theme or style
 
 ### notes-edit
 

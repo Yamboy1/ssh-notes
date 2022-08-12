@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ssh -t idiot@stupidberry 'mkdir -p .ssh-notes/ && nvim .ssh-notes/notes.md'
